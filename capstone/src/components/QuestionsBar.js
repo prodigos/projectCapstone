@@ -1,10 +1,11 @@
 import React from 'react';
+// import QuestionCategory from '../components/QuestionCategories'
 
-const QuestionsBar = () => {
+const QuestionsBar = ({categoryHandler}) => {
 
     return (
         <div>
-            <h1>questions here</h1>
+            <h1>{categoryHandler()}</h1>
         </div>
     )
 }
